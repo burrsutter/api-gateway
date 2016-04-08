@@ -34,7 +34,8 @@ public class ApiGatewayController {
     /**
      * The list of services we're invoking through the API Gateway
      */
-    private static final List<String> services = Arrays.asList("hello", "ola", "hola", "aloha", "bonjour", "namaste");
+    // private static final List<String> services = Arrays.asList("hello", "ola", "hola", "aloha", "bonjour", "namaste");
+	private static final List<String> services = Arrays.asList("hello", "ola", "hola", "bonjour", "namaste");
 
     /**
      * This /api REST endpoint uses Java 8 parallel stream to create the Feign, invoke it, and collect the result as a List that
